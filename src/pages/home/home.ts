@@ -11,4 +11,8 @@ export class HomePage {
 
   }
 
+  openSearchPage(){
+    this.navCtrl.push("SearchLocationPage");
+  }
+
 }
